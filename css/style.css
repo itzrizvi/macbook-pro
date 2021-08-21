@@ -1,0 +1,59 @@
+/* Global Styles Starts*/
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Global Styles Ends*/
+
+/* Product Section Style Starts Here  */
+.price-names p,
+.price-amounts p{
+    background-color: rgb(219, 219, 219);
+    padding: 5px;
+    font-weight: 700;
+}
+
+.product-title {
+    padding: 15px 20px;
+}
+
+p.memory-title,
+p.storage-title,
+p.delivery-title{
+    font-weight: 500;
+}
+
+.product-info, 
+.memory-part, 
+.storage-part, 
+.delivery-part,
+.price-part,
+.promo-part {
+    padding: 10px 20px;
+}
+
+button.btn {
+    font-size: 15px;
+}
+
+p.promo-title {
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.input-fields input[type="text"] {
+    padding: 5px;
+}
+
+/* Product Section Style Ends Here  */
+
+/* Responsive */
+@media screen and (max-width: 991px){
+    .price-names p,
+    .price-amounts p{
+        font-size: 12px;
+    }
+}

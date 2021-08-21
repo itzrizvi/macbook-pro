@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <!-- Product Section Starts Here -->
+        <section class="product-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-12 column-left">
+                        <img class="img-fluid" src="images/mac.png" alt="Mac Book Pro">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-12 column-right">
+                        <div class="product-title">
+                            <h3>Customize your Blue 24‑inch iMac with Apple M1 chip.</h3>
+                        </div>
+                        <div class="product-info">
+                            <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core
+                                GPU,
+                                and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4
+                                ports
+                                Magic Mouse Magic Keyboard - US English</p>
+                        </div>
+                        <!-- Extra Memory Part -->
+                        <div class="memory-part">
+                            <p class="memory-title">Memory</p>
+                            <div class="memory-buttons">
+                                <button id="eightgb-memory" class="btn btn-light mb-3">8GB unified memory</button>
+                                <button id="sixteengb-memory" class="btn btn-light mb-3">16GB unified memory</button>
+                            </div>
+                        </div>
+                        <!-- Extra Storage Part -->
+                        <div class="storage-part">
+                            <p class="storage-title">Storage</p>
+                            <div class="memory-buttons">
+                                <button id="twoFiftySix-store" class="btn btn-light mb-3">256GB SSD storage</button>
+                                <button id="fiveTwelve-store" class="btn btn-light mb-3">512GB SSD storage</button>
+                                <button id="oneTera-store" class="btn btn-light mb-3">1TB SSD storage</button>
+                            </div>
+                        </div>
+                        <!-- Delivery Fee Part -->
+                        <div class="delivery-part">
+                            <p class="delivery-title">Choose your delivery option</p>
+                            <div class="delivery-buttons">
+                                <button id="free-delivery" class="btn btn-light mb-3">Wednesday, Aug 25 FREE Prime
+                                    Delivery</button>
+                                <button id="charged-delivery" class="btn btn-light">Friday, Aug 21 Delivery Charge
+                                    $20</button>
+                            </div>
+                        </div>
+                        <!-- Price Calculation Part -->
+                        <div class="price-part">
+                            <div class="row">
+                                <div class="col-md-10 col-sm-12 col-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-6 price-names py-3">
+                                            <p>Best Price</p>
+                                            <p>Extra Memory Cost</p>
+                                            <p>Extra Storage Cost</p>
+                                            <p>Delivery Charge</p>
+                                            <p class="bg-info text-white">Total Price</p>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-6 price-amounts text-center py-3">
+                                            <p>$<span id="best-price">1299</span></p>
+                                            <p>$<span id="extra-memory">0</span></p>
+                                            <p>$<span id="extra-storage">0</span></p>
+                                            <p>$<span id="delivery-option">0</span></p>
+                                            <p class="bg-info text-white">$<span id="defualt-price">1299</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Promo Code Part -->
+                        <div class="promo-part">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="promo-title">Add Promo Code</p>
+                                    <div class="input-fields">
+                                        <p id="errorMSG"></p>
+                                        <input type="text" name="" id="promo-code">
+                                        <button id="coupon-btn" class="btn btn-danger">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Total Price Part -->
+                        <h3 class="text-center">Total: $<span id="rest-total">1299</span></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product Section Ends Here -->
+    </main>
+
+
+
+    <!-- Bootstrap Script CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Script External Link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
